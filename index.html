@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
   <!-- 字体图标 -->
   <link rel="stylesheet" href="/assets/fonts/iconfont.css">
- 
+  
   <!-- 本页面的css -->
   <link rel="stylesheet" href="/assets/css/index.css">
 </head>
@@ -29,9 +29,10 @@
           个人中心
         </a>
         <dl class="layui-nav-child">
-          <dd><a href="">基本资料</a></dd>
-          <dd><a href="">更换头像</a></dd>
-          <dd><a href="">重置密码</a></dd>
+          <dd><a href="/user/user_info.html" target="fm"><i class="layui-icon layui-icon-app"></i>  基本资料</a></dd>
+          <dd><a href="/user/user_avatar.html "target="fm"><i class="layui-icon layui-icon-app"></i>  更换头像</a></dd>
+          <dd><a href="/user/user_pwd.html" target="fm"><i class="layui-icon layui-icon-app"></i>  重置密码</a></dd>
+          
         </dl>
       </li>
       <li class="layui-nav-item"><a href="javascript:;" id="btnLogout"><span class="iconfont icon-tuichu"></span>退出</a></li>
@@ -64,9 +65,9 @@
         <li class="layui-nav-item">
           <a href="javascript:;"><span class="iconfont icon-user"></span>个人中心</a>
           <dl class="layui-nav-child">
-            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>  基本资料</a></dd>
-            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>  更换头像</a></dd>
-            <dd><a href="javascript:;"><i class="layui-icon layui-icon-app"></i>  重置密码</a></dd>
+            <dd><a href="/user/user_info.html" target="fm"><i class="layui-icon layui-icon-app"></i>  基本资料</a></dd>
+            <dd><a href="/user/user_avatar.html "target="fm"><i class="layui-icon layui-icon-app"></i>  更换头像</a></dd>
+            <dd><a href="/user/user_pwd.html" target="fm"><i class="layui-icon layui-icon-app"></i>  重置密码</a></dd>
             
           </dl>
         </li>
@@ -89,6 +90,7 @@
 <!-- layui js -->
 <script src="/assets/lib/layui/layui.all.js"></script>
 <script src="/assets/lib/jquery.js"></script>
+
 <script src="/assets/js/baseAPI.js"></script>
 <!-- 页面的js -->
 <script src="/assets/js/index.js"></script>
